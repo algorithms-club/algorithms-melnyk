@@ -1,13 +1,11 @@
-'use strict';
+const bubbleSort = require('./bubble-sort');
+const coverByTile = require('./entry-test/coverByTile');
+const UnionFind = require('./unionFind');
 
-let bubbleSort = require('./bubble-sort');
-let coverByTile = require('./entry-test/coverByTile');
-let UnionFind = require('./unionFind');
-
-let algolib = {
-    bubbleSort,
-    coverByTile,
-    UnionFind,
-}
+const algolib = {
+  bubbleSort,
+  coverByTile,
+  UnionFind,
+};
 
 module.exports = algolib;

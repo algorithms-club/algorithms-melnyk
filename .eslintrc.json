@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb-base",
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+        "no-continue": "off",
+        "no-param-reassign": "off",
+        "no-underscore-dangle": "off",
+        "no-plusplus": "off",
+        "func-names": "off",
+        "no-constant-condition": "off"
+    }
+}
