@@ -6,9 +6,9 @@ describe('#unionFind', () => {
   it('should create proper data structure', () => {
     const uf = new algolib.UnionFind();
 
-      uf.connect.should.be.instanceOf(Function);
+        uf.connect.should.be.instanceOf(Function);
     uf.isConnected.should.be.instanceOf(Function);
-  });
+  })
 
   it('suold #isConnected return false if not connected', () => {
     const uf = new algolib.UnionFind();
